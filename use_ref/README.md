@@ -1,4 +1,4 @@
-# Projeto de estudo sobre useContext
+# Projeto de estudo sobre useRef
 
 ## Gerador de cores!
 <p> Nesse projeto foi criado um codigo simples para verificação e alteração de estilo na tela, apenas com foco na aprendizagem sobre o hook <strong>useRef</strong></p>
