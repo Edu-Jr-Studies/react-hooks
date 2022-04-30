@@ -8,6 +8,7 @@ function App() {
   const [ dataInput, setDataInput ] = useState();
   
   const acao = () => {
+    elementoInput.current.focus();
     elementoInput.current.style.background = 'grey';
     elementoInput.current.style.padding = '10px'
     elementoInput.current.style.border = '1.5px solid green';
