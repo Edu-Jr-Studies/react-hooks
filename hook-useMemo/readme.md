@@ -1,0 +1,2 @@
+## Anotações
+- O hook `useMemo` é muito util em situações como a apresentada nesse exemplo, onde temos duas funções sendo uma com delay porém sem o `useMemo` uma afeta a outra com o delay. Porém quando utilizamos o `useMemo` ele memoriza o resultado da função e só roda a logica da mesma caso um dos valores informados a ele seja modificado.
