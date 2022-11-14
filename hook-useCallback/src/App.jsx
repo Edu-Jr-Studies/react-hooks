@@ -19,6 +19,13 @@ function App() {
     return spacedList;
   },[]);
 
+  // const listModifier = (list) => {
+  //   const spacedList = list.map((item) => item.split('').join(' '));
+
+  //   return spacedList;
+  // }
+
+
   return (
     <>
       <form onSubmit={handleOnSubmit}>
